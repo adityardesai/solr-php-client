@@ -1,1 +1,0 @@
-/var/www/html/sample.php
