@@ -1,0 +1,19 @@
+
+Installation - https://www.howtoforge.com/tutorial/install-apache-with-php-and-mysql-on-ubuntu-16-04-lamp/
+
+Apache Start - apachectl -k start
+Processes Running - ps -gx | grep "apache2"
+Version - apache2ctl -V
+Logs - /var/log/apache2
+sudo service apache2 restart or systemctl restart apache2
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++==
+
+Solr Commands
+bin/solr start
+bin/solr delete -c collection_name
+
+
+
+
+
